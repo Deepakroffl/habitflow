@@ -21,3 +21,4 @@ pool.on('error', (err) => {
 const query = (text, params) => pool.query(text, params);
 
 module.exports = { pool, query };
+
